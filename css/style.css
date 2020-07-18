@@ -1,0 +1,263 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Header  */
+
+/* navbar */
+.menu li a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: 25px;
+    color: #0e1424 !important;
+}
+.menu li a:hover,
+.menu li a.active-link {
+    color: #31d7ce !important;
+    transition: color 0.3s;
+}
+/* nav bar */
+
+/* description */
+.description {
+    background: url('../img/descriptionbg.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 270px 0;
+}
+.big-title {
+    color: #31d7ce;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    letter-spacing: 15px;
+    margin-bottom: 42px;
+}
+.contact-btn {
+    width: 170px;
+    height: 50px;
+    color: #31d7ce;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: 1px solid white;
+    box-shadow: none !important;
+}
+.contact-btn:hover {
+    background-color: #31d7ce;
+    border-color: #31d7ce;
+    color: #fff;
+    transition: all 0.3s;
+}
+/* description */
+
+/* Header  */
+
+/* About  */
+.about,
+.work {
+    padding: 120px 0;
+}
+.a_heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #252525;
+    text-transform: uppercase;
+    word-spacing: 15px;
+}
+
+.a_text {
+    margin: 25px 0 40px;
+    color: #4b4b4b;
+}
+
+.about-btn {
+    width: 115px;
+    height: 34px;
+    background-color: #31d7ce;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    box-shadow: none !important;
+}
+/* About  */
+
+/* Service */
+.s_heading {
+    font-weight: 700;
+    margin-bottom: 55px;
+    text-align: center;
+    color: #252525;
+}
+.s_item {
+    padding: 50px 12px 38px;
+    cursor: pointer;
+}
+.s_item:hover {
+    box-shadow: 0 0 10px rgba(49, 215, 206, 0.8);
+    transition: box-shadow 0.5s;
+}
+
+.s_title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #444444;
+    line-height: 28px;
+    word-spacing: 3px;
+}
+
+.s_text {
+    font-size: 15px;
+    color: #555555;
+    line-height: 23px;
+}
+/* Service */
+
+/* Work */
+.w_img {
+    position: relative;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.w_img:hover .overlay {
+    opacity: 1;
+}
+.o-text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+/* Service */
+
+/* Success */
+.success {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/success.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0 35px;
+    text-align: center;
+}
+.success_item li:last-child {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+}
+.success_item li:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+/* Success */
+
+/* Blog */
+.blog {
+    padding: 100px 0;
+}
+.bc_title {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+.bc_des {
+    font-size: 18px;
+    color: #444444;
+}
+.bc_text {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #555555;
+    text-transform: uppercase;
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+/* Blog*/
+
+/* CTA */
+.cta {
+    background-color: #50d18d;
+    padding: 55px 0;
+}
+.cta-title {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.cta-btn {
+    width: 145px;
+    height: 50px;
+    color: #fff;
+    background-color: #4be694;
+    text-transform: uppercase;
+    margin-left: 15px;
+
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: none !important;
+}
+/* CTA */
+
+/* Contact */
+.contact {
+    background-color: #000415;
+    color: #fff;
+    padding: 115px 0 80px;
+}
+.con_slogan {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    margin-top: 15px;
+}
+.con_text {
+font-size: 15px;
+}
+.one-line {
+    height: 130px;
+    border-left: 2px solid white;
+    opacity: 0.5;
+    margin: 0 130px 0 40px;
+}
+/* Contact */
+.copyright {
+    background-color: #000415;
+}
