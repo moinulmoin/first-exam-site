@@ -58,7 +58,7 @@
     }
     .about,
     .work {
-        padding: 100px 0;
+        padding: 90px 0 100px;
     }
     .blog {
         padding: 85px 0;
@@ -66,6 +66,9 @@
     .contact {
         padding: 95px 0 80px;
     }
+    .description {
+    padding: 150px 0 130px;
+}
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -123,6 +126,9 @@
     .contact {
         padding: 100px 0 80px;
     }
+    .description {
+    padding: 200px 0 180px;
+}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
