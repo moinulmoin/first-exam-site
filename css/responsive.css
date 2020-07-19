@@ -6,12 +6,6 @@
     .menu li a {
         margin: 0;
     }
-    .about {
-        padding: 90px 0;
-    }
-    .description {
-        padding: 185px 0;
-    }
     .s_item {
         padding: 25px 0 20px;
         cursor: pointer;
@@ -68,7 +62,10 @@
     }
     .description {
     padding: 150px 0 130px;
-}
+    }
+    .s_heading {
+    margin-bottom: 35px;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
