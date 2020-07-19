@@ -58,7 +58,7 @@
     }
     .about,
     .work {
-        50px 0 65px;
+    padding: 50px 0 65px;
     }
     .blog {
     padding: 50px 0;
